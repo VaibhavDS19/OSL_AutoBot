@@ -14,13 +14,8 @@ F4.writeSync(1);
 var F2 = new Gpio(10, 'out');
 F2.writeSync(1);
  
-var statL1=0;
-var statL2=0;
-var statL3=0;
-var statF1=0;
-var statF2=0;
-var statF3=0;
-var statF4=0;
+var statL1=0, statL2=0, statL3=0;
+var statF1=0, statF2=0, statF3=0, statF4=0;
 
 var arr = [];
 const fs = require('fs');
